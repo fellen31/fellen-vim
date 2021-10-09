@@ -11,8 +11,10 @@ call plug#begin('~/.vim/plugged')
 Plug 'snakemake/snakemake', {'rtp': 'misc/vim'}
 Plug 'easymotion/vim-easymotion'
 Plug 'morhetz/gruvbox'
-call plug#end()
+Plug 'tpope/vim-fugitive'
 
+call plug#end()
+let g:gruvbox_italic=1
 autocmd vimenter * ++nested colorscheme gruvbox
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
