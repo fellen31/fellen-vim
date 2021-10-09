@@ -11,6 +11,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'snakemake/snakemake', {'rtp': 'misc/vim'}
 Plug 'easymotion/vim-easymotion'
 Plug 'morhetz/gruvbox'
+Plug 'ggandor/lightspeed.nvim'
+
 call plug#end()
 
 autocmd vimenter * ++nested colorscheme gruvbox
